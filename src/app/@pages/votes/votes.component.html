@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <h1>Personajes
+        <small>Informaci&oacute;n</small>
+    </h1>
+    <div class="row">
+        <div class="col-lg-9 graph">
+            <app-bar-chart [characters]="characters"></app-bar-chart>
+
+        </div>
+
+        <div class="col-lg">
+            <button type="button" (click)="addVote(c.id,c.name)" class="btn btn-info btn-lg btn-block"
+                *ngFor="let c of characters">{{c.name}}</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+.graph{
+    padding-top:2rem;
+}
+.btn-info{
+    background-color: #3d6e52;
+    transition: 1s ease;
+}
+.btn-info:hover{
+    background-color: gray;
+
+}
