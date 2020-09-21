@@ -9,7 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prod": "ng build --prod --base-href=\"./\""
-
   },
   "private": true,
   "dependencies": {
@@ -30,9 +29,11 @@
     "apollo-link-ws": "^1.0.20",
     "chart.js": "^2.9.3",
     "chartjs": "^0.3.24",
+    "express": "^4.17.1",
     "graphql": "^15.3.0",
     "graphql-tag": "^2.11.0",
     "ng2-charts": "^2.4.1",
+    "nodemon": "^2.0.4",
     "rxjs": "~6.6.0",
     "subscriptions-transport-ws": "^0.9.18",
     "tslib": "^2.0.0",
